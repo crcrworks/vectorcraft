@@ -575,6 +575,9 @@ fn interpreter_settings(sink: Arc<Mutex<Vec<String>>>, incomplete: Arc<AtomicBoo
                     incomplete.store(true, Ordering::Relaxed);
                     return;
                 }
+                // bace: the hayro this workspace pins (PdfCraft's) reports a few more warnings
+                // than the released one; the art still imports, so they are not notes.
+                _ => return,
             };
             if let Ok(mut v) = sink.lock()
                 && !v.iter().any(|x| x == msg)

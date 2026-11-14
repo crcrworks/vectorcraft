@@ -25,8 +25,8 @@ fetched through crates.io under their own permissive licenses (mostly MIT and/or
 BSD, ISC, Zlib, BSL-1.0 and Unicode-3.0).
 
 linesweeper 0.5.0 (MIT OR Apache-2.0) is fetched from https://github.com/storytold/craft-libs at
-revision 481f66d287b2a06845f3667a19daf35f0fe958ed. The copy in craft-libs' vendor/linesweeper is
-the crates.io package with no file changed, and it keeps the package's LICENSE-MIT and
+revision 63196e66f3033a6623eb629af95a104d26986725. The copy in craft-libs' vendor/linesweeper is
+the crates.io package's code plus a doc-comment patch, and it keeps the package's LICENSE-MIT and
 LICENSE-APACHE.
 
 JPEG export uses the jpeg-encoder crate (MIT OR Apache-2.0, and the IJG License): this software is
@@ -77,10 +77,10 @@ Shared PDF backend
 
 The patched hayro-interpret 0.7.0, hayro-syntax 0.7.2, hayro-jbig2 0.3.0, hayro-cmap 0.1.0
 and hayro-postscript 0.1.0 are fetched from https://github.com/storytold/craft-libs at revision
-9be9a63782298ab59cd9b7a42ee9cba4f42a5ccb. Their upstream project is
+63196e66f3033a6623eb629af95a104d26986725. Their upstream project is
 https://github.com/LaurenzV/hayro, licensed MIT OR Apache-2.0. The snapshot retains each
 crate's upstream licence files. The patch ledger is at
-https://github.com/storytold/craft-libs/blob/9be9a63782298ab59cd9b7a42ee9cba4f42a5ccb/vendor/README.craft-reader.md.
+https://github.com/storytold/craft-libs/blob/63196e66f3033a6623eb629af95a104d26986725/vendor/README.craft-reader.md.
 
 Assets already bundled through Hayro's default features retain their licences:
 - Foxit standard-14 substitutes: Copyright 2014 PDFium Authors. All rights reserved.
